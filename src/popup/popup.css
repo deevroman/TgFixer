@@ -1,0 +1,10 @@
+html, body {
+    width: 300px;
+}
+
+.input-link {
+    width: 95%;
+    padding: 4px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
