@@ -1,5 +1,6 @@
 # TgFixer
 Firefox extension for fix t.me links on pages
+Install: https://addons.mozilla.org/ru/firefox/addon/tgfixer/
 
 Automatically changes all links t.me/username on tg://resolve?domain=username
 

@@ -2,12 +2,7 @@
   "manifest_version": 2,
   "name": "TgFixer",
   "version": "1.0",
-  "description": "Telegram url fixer",
-  "browser_specific_settings": {
-    "gecko": {
-      "strict_min_version": "63.0b14"
-    }
-  },
+  "description": "Telegram url fixer. Automatically changes all links t.me/username on tg://resolve?domain=username\n",
   "icons": {
     "48": "icons/border-48.png"
   },
