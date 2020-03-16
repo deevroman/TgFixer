@@ -13,13 +13,13 @@
 ## Description
 Firefox/Opera**β** extension for fix t.me links on pages
 
-**Automatically** changes all links on page t.me/username on tg://resolve?domain=username
+**Automatically** changes all links on page *t.me/username* on *tg://resolve?domain=username*
 
 And also in popup allows you to correct the links yourself
 
 Fixing links:
 
-+ t.me/username
-+ telegram.me/username
-+ t.me/joinchat/AAAAAA_1234559
-+ telegram.me/joinchat/AAAAAA_1234559
++ *t.me/username*
++ *telegram.me/username*
++ *t.me/joinchat/AAAAAA_1234559*
++ *telegram.me/joinchat/AAAAAA_1234559*
