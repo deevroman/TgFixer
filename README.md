@@ -10,7 +10,6 @@
   </br></br>
 </p>
 
-# TgFixer
 ## Description
 Firefox/Opera**β** extension for fix t.me links on pages
 
