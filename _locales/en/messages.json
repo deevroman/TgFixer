@@ -1,0 +1,6 @@
+{
+  "extensionDescription": {
+    "message": "Telegram url fixer. Automatically changes all links t.me/username on tg://resolve?domain=username\n",
+    "description": "Description of the extension."
+  }
+}

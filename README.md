@@ -20,6 +20,9 @@ And also in popup allows you to correct the links yourself
 Fixing links:
 
 + *t.me/username*
-+ *telegram.me/username*
++ *t.me/channelname/1234*
 + *t.me/joinchat/AAAAAA_1234559*
-+ *telegram.me/joinchat/AAAAAA_1234559*
++ *t.me/addstickers/packname*
+
+
+and telegram.me/ telegram.dog

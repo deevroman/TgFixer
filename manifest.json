@@ -1,8 +1,10 @@
 {
   "manifest_version": 2,
   "name": "TgFixer",
-  "version": "1.0.1",
-  "description": "Telegram url fixer. Automatically changes all links t.me/username on tg://resolve?domain=username\n",
+  "version": "1.0.2",
+  "description": "__MSG_extensionDescription__",
+  "author": "Roman Deev",
+  "homepage_url": "https://github.com/deevroman/TgFixer",
   "icons": {
     "48": "icons/border-48.png"
   },
@@ -15,6 +17,7 @@
         "*://*/*"
       ],
       "js": [
+        "src/fixer.js",
         "src/fix_page.js"
       ]
     }
@@ -24,5 +27,6 @@
     "default_icon": {
       "48": "icons/border-48.png"
     }
-  }
+  },
+  "default_locale": "en"
 }

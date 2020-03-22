@@ -1,0 +1,6 @@
+{
+  "extensionDescription": {
+    "message": "Расширение исправляет ссылки t.me/username на tg://resolve?domain=username",
+    "description": "Description of the extension."
+  }
+}
