@@ -13,6 +13,8 @@
 ## Description
 Firefox/Opera**β** extension for fix t.me links on pages
 
+For Chrome&Edge soon
+
 **Automatically** changes all links on page *t.me/username* on *tg://resolve?domain=username*
 
 And also in popup allows you to correct the links yourself
@@ -25,4 +27,4 @@ Fixing links:
 + *t.me/addstickers/packname*
 
 
-and telegram.me/ telegram.dog
+and telegram.me telegram.dog

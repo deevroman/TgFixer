@@ -1,6 +1,6 @@
 {
   "extensionDescription": {
-    "message": "Расширение исправляет ссылки t.me/username на tg://resolve?domain=username",
+    "message": "Расширение исправляет ссылки t.me/username на tg://resolve?domain=username, что помогает открывать их, если Telegram блокируется в вашей стране",
     "description": "Description of the extension."
   }
 }

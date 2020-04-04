@@ -1,6 +1,6 @@
 {
   "extensionDescription": {
-    "message": "Telegram url fixer. Automatically changes all links t.me/username on tg://resolve?domain=username\n",
+    "message": "Telegram url fixer. Automatically changes all links t.me/username on tg://resolve?domain=username, which helps open them up if Telegram is blocked in your country.\n",
     "description": "Description of the extension."
   }
 }
