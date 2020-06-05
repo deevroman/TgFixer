@@ -9,6 +9,8 @@
   </br>
 </p>
 
+* [Русское описание](#русское-описание)
+
 ## Description
 Firefox/Opera**β** extension for fix **t.me**, **telegra.ph** links on pages
 
