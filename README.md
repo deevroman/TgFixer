@@ -11,13 +11,13 @@
 </p>
 
 ## Description
-Firefox/Opera**β** extension for fix t.me links on pages
+Firefox/Opera**β** extension for fix **t.me**, **telegra.ph** links on pages
 
 For Chrome&Edge soon
 
 **Automatically** changes all links on page *t.me/username* on *tg://resolve?domain=username*
 
-Also redirect t.me to you Telegram Client
+Also redirect *t.me* to you Telegram Client, and *telegra.ph* to *graph.org*
 
 And in popup allows you to correct the links yourself
 
@@ -34,13 +34,13 @@ and telegram.me telegram.dog
 
 ## Русское описание
 
-Firefox/Opera**β** расширение для обхода блокировки ссылок t.me
+Firefox/Opera**β** расширение для обхода блокировки ссылок **t.me**, **telegra.ph**
 
 Поддержка Chrome&Edge скоро
 
 **Автоматичсеки** меняет все ссылки *t.me/username* на *tg://resolve?domain=username*
 
-А также перенаправляет t.me в ваш Telegram клиент
+А также перенаправляет t.me в ваш Telegram клиент, а telegra.ph в graph.org
 
 В меню расширения вы можете в ручную исправить ссылки
 

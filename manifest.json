@@ -13,6 +13,8 @@
     "webRequest",
     "*://t.me/*",
     "*://www.t.me/*",
+    "*://telegra.ph/*",
+    "*://www.telegra.ph/*",
     "webRequestBlocking"
   ],
   "content_scripts": [
@@ -28,7 +30,8 @@
   ],
   "background": {
     "scripts": [
-      "src/handler_t_me.js"
+      "src/handler_t_me.js",
+      "src/handler_telegra_ph.js"
     ]
   },
   "browser_action": {
