@@ -6,7 +6,7 @@
     <img src="https://i.imgur.com/dvof8rG.png" alt="Firefox add-ons"></a>
   <a href="https://addons.opera.com/ru/extensions/details/tgfixer/">
     <img src="https://i.imgur.com/wK10qEV.png" alt="Opera add-ons"></a>
-  </br></br>
+  </br>
 </p>
 
 ## Description
