@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "TgFixer (unblock Telegram links)",
-  "version": "1.0.3",
+  "version": "1.1",
   "description": "__MSG_extensionDescription__",
   "author": "Roman Deev",
   "homepage_url": "https://github.com/deevroman/TgFixer",
