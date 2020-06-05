@@ -2,7 +2,6 @@
 <p align="center"><a href="https://imgur.com/yQiqD1Y"><img src="https://i.imgur.com/yQiqD1Y.png?3" title="source: imgur.com" /></a></p>
 <h1 align="center">TgFixer</h1>
 <p align="center">
-  </br></br>
   <a href="https://addons.mozilla.org/ru/firefox/addon/tgfixer/">
     <img src="https://i.imgur.com/dvof8rG.png" alt="Firefox add-ons"></a>
   <a href="https://addons.opera.com/ru/extensions/details/tgfixer/">
