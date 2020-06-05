@@ -1,15 +1,19 @@
 {
   "manifest_version": 2,
-  "name": "TgFixer",
+  "name": "TgFixer (unblock Telegram links)",
   "version": "1.0.3",
   "description": "__MSG_extensionDescription__",
   "author": "Roman Deev",
   "homepage_url": "https://github.com/deevroman/TgFixer",
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/icon_48.png"
   },
   "permissions": [
-    "<all_urls>"
+    "<all_urls>",
+    "webRequest",
+    "*://t.me/*",
+    "*://www.t.me/*",
+    "webRequestBlocking"
   ],
   "content_scripts": [
     {
@@ -22,10 +26,15 @@
       ]
     }
   ],
+  "background": {
+    "scripts": [
+      "src/handler_t_me.js"
+    ]
+  },
   "browser_action": {
     "default_popup": "src/popup/popup.html",
     "default_icon": {
-      "48": "icons/border-48.png"
+      "48": "icons/icon_48.png"
     }
   },
   "default_locale": "en"

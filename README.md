@@ -17,7 +17,9 @@ For Chrome&Edge soon
 
 **Automatically** changes all links on page *t.me/username* on *tg://resolve?domain=username*
 
-And also in popup allows you to correct the links yourself
+Also redirect t.me to you Telegram Client
+
+And in popup allows you to correct the links yourself
 
 Fixing links:
 
@@ -25,6 +27,30 @@ Fixing links:
 + *t.me/channelname/1234*
 + *t.me/joinchat/AAAAAA_1234559*
 + *t.me/addstickers/packname*
-
++ *t.me/botname?start=XXXX*
++ *t.me/socks?server=ip&port=port&user=user&pass=password*
 
 and telegram.me telegram.dog
+
+## Русское описание
+
+Firefox/Opera**β** расширение для обхода блокировки ссылок t.me
+
+Поддержка Chrome&Edge скоро
+
+**Автоматичсеки** меняет все ссылки *t.me/username* на *tg://resolve?domain=username*
+
+А также перенаправляет t.me в ваш Telegram клиент
+
+В меню расширения вы можете в ручную исправить ссылки
+
+Исправляемые ссылки:
+
++ *t.me/username*
++ *t.me/channelname/1234*
++ *t.me/joinchat/AAAAAA_1234559*
++ *t.me/addstickers/packname*
++ *t.me/botname?start=XXXX*
++ *t.me/socks?server=ip&port=port&user=user&pass=password*
+
+также исправляются домены telegram.me telegram.dog
