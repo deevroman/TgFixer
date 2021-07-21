@@ -1,8 +1,7 @@
 browser.webRequest.onBeforeRequest.addListener(
     function (details) {
-        const path = details.url.match(/telegra.ph\/(.+)/)[1];
         return {
-            redirectUrl: "https://graph.org/" + path
+            redirectUrl: "https://graph.org/" + details.url.match(/telegra.ph\/(.*)/)[1]
         };
     }, {
         urls: [
