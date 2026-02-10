@@ -3,16 +3,12 @@
 <h1 align="center">TgFixer</h1>
 <p align="center">
   <a href="https://addons.mozilla.org/ru/firefox/addon/tgfixer/">
-    <img src="https://i.imgur.com/dvof8rG.png" alt="Firefox add-ons"></a>
-  <a href="https://addons.opera.com/ru/extensions/details/tgfixer/">
-    <img src="https://i.imgur.com/wK10qEV.png" alt="Opera add-ons"></a>
+    <img src="https://i.imgur.com/dvof8rG.png" alt="Firefox add-ons store logo"></a>
   </br>
 </p>
 
 ## Description
-Firefox/Opera**β** extension for fix **t.me**, **telegra.ph** links on pages
-
-For Chrome&Edge soon
+Firefox extension for fix **t.me**, **telegra.ph** links on pages
 
 **Automatically** changes all links on page *t.me/username* on *tg://resolve?domain=username*
 
@@ -34,8 +30,6 @@ and telegram.me telegram.dog
 ## Русское описание
 
 Firefox/Opera**β** расширение для обхода блокировки ссылок **t.me**, **telegra.ph**
-
-Поддержка Chrome&Edge скоро
 
 **Автоматичсеки** меняет все ссылки *t.me/username* на *tg://resolve?domain=username*
 
