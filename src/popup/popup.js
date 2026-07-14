@@ -1,10 +1,13 @@
-function fixInput(event) {
-    let fixedLink = fixUrl(event.target.value);
+const fixInput = event => {
+    const fixedLink = fixUrl(event.target.value);
     if (fixedLink) {
-        document.getElementById("output-link").innerHTML = "<a href='" + fixedLink + "'>" + fixedLink + "</a>";
+        const a = document.createElement("a")
+        a.textContent = fixedLink
+        a.setAttribute("href", fixedLink)
+        document.getElementById("output-link").replaceChildren(a)
     } else {
-        document.getElementById("output-link").innerHTML = "";
+        document.getElementById("output-link").replaceChildren()
     }
-}
+};
 
 document.getElementById("input-link").addEventListener('input', fixInput);

@@ -1,4 +1,4 @@
-function fixUrl(elem) {
+const fixUrl = elem => {
     let reg;
     // usernames
     reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/([a-zA-Z0-9_]+))$/g;
@@ -10,6 +10,21 @@ function fixUrl(elem) {
     if (reg.test(elem)) {
         return elem.replace(reg, "tg://resolve?domain=$4&post=$5");
     }
+    // posts links
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/s\/([a-zA-Z0-9_]+)\?before=([0-9]+))$/g;
+    if (reg.test(elem)) {
+        return elem.replace(reg, "tg://resolve?domain=$4&post=$5");
+    }
+    // channel links
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/s\/([a-zA-Z0-9_]+))$/g;
+    if (reg.test(elem)) {
+        return elem.replace(reg, "tg://resolve?domain=$4");
+    }
+    // direct message links
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/m\/([a-zA-Z0-9_]+))$/g;
+    if (reg.test(elem)) {
+        return elem.replace(reg, "tg://message?slug=$4");
+    }
     // bot with params
     reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/([a-zA-Z0-9_]+)\?start=([a-zA-Z0-9_]*))$/g;
     if (reg.test(elem)) {
@@ -20,10 +35,20 @@ function fixUrl(elem) {
     if (reg.test(elem)) {
         return elem.replace(reg, "tg://join?invite=$4");
     }
-    // stickerpacks links
-    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/addstickers\/([a-zA-Z0-9_]+))$/g;
+    // sticker and emoji links
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/(addstickers|addemoji)\/([a-zA-Z0-9_]+))$/g;
     if (reg.test(elem)) {
-        return elem.replace(reg, "tg://addstickers?set=$4");
+        return elem.replace(reg, "tg://$4?set=$5");
+    }
+    // language links
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/(setlanguage)\/([a-zA-Z0-9_]+))$/g;
+    if (reg.test(elem)) {
+        return elem.replace(reg, "tg://$4?lang=$5");
+    }
+    // slug links
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/(addlist|addtheme|addstyle|call|invoice|giftcode|nft|auction)\/([a-zA-Z0-9_]+))$/g;
+    if (reg.test(elem)) {
+        return elem.replace(reg, "tg://$4?slug=$5");
     }
     // socks proxy
     reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/socks\?(.+))$/g;
@@ -39,6 +64,11 @@ function fixUrl(elem) {
     reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/share\?(.+))$/g;
     if (reg.test(elem)) {
         return elem.replace(reg, "tg://msg_url?$4");
+    }
+    // phone number
+    reg = /^((https:\/\/|http:\/\/)?(telegram\.me|telegram\.dog|t\.me)\/\+([0-9]+))$/g;
+    if (reg.test(elem)) {
+        return elem.replace(reg, "tg://resolve?phone=$4");
     }
 
     return false;
