@@ -15,7 +15,7 @@ const sleep = async ms => {
 };
 
 const main = async () => {
-    for (const delay of [0, 1000, 5000, 5000, 5000, 5000, 5000, 5000]) {
+    for (const delay of [0, 500, 500, 500, 500, 500, 500, 1000, 1000, 5000, 5000, 5000, 5000, 5000, 5000]) {
         await sleep(delay)
         fixAllOnPage()
     }
